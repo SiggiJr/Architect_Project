@@ -44,6 +44,12 @@
   --ff_texts: "Helvetica";
 }
 
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+}
+
 img {
   display: block;
   width: 100%;
@@ -195,7 +201,6 @@ a {
 }
 
 .grid_item img {
-  /* height: 216px; */
   transition: transform 0.5s linear;
   transform: scale(1);
   aspect-ratio: 16/9;
