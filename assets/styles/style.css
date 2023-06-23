@@ -498,8 +498,13 @@ footer {
   }
 
   .green_box {
-    height: 222px;
     top: 0;
+  }
+
+  .lorem_rocks {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .our_services,
