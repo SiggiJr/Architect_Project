@@ -206,13 +206,10 @@ a {
   transition: transform 0.5s linear;
 }
 
-.green_box {
+/* .green_box {
   background-color: rgba(0, 128, 0, 0.406);
-  height: 400px;
   position: absolute;
-  top: 100%;
-  width: 100%;
-}
+} */
 
 .lorem_rocks {
   border: 1px solid var(--white);
@@ -227,6 +224,11 @@ a {
 
 .grid_item:hover .green_box {
   top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: rgba(0, 128, 0, 0.406);
 }
 
 .lorem_rocks:hover {
@@ -499,6 +501,11 @@ footer {
 
   .green_box {
     top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(0, 128, 0, 0.406);
   }
 
   .lorem_rocks {
